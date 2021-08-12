@@ -1,0 +1,14 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "Enter any two integers: "<< endl;
+    int num_1;
+    int num_2;
+    int sum = 0;
+    cin >> num_1 >> endl >> num_2 >> endl;
+    sum = num_1 + num_2;
+    cout << "The sum of your two integers is " << sum << endl;
+}
